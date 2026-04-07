@@ -4,21 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
     <title>Айзатуллина</title>
   </head>
   <body>
     <header class="container">
       <div class="xbox">
-        <img src="./image/xbox.png" alt="" />
-        <nav>
+        <img src="./image/xbox.png" alt="Xbox logo" class="logo" />
+
+        <div class="burger" id="burgerBtn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <nav class="nav-menu" id="navMenu">
           <ul>
             <li>Games</li>
             <li>Consoles</li>
             <li>Community</li>
-            <li><input type="text" name="" id="" placeholder="Search" /></li>
+            <li><input type="text" placeholder="Search" /></li>
             <li>
-              <img src="./image/user.png" alt="" />
+              <img src="./image/user.png" alt="user" />
               <p>My XBOX</p>
             </li>
           </ul>
@@ -27,7 +34,7 @@
     </header>
     <main>
       <section class="hero">
-        <div class="container">
+        <div class="container hero-rel">
           <div class="content">
             <div class="top">
               <p>Star Wars</p>
@@ -67,7 +74,7 @@
             <div class="card">
               <img src="./image/2-3.png" alt="" />
               <div class="text">
-                <h3>Free Games Every Month</h3>
+                <h3>Free Games Every Mo</h3>
                 <p>Faster Processing<br />Smoother Gameplay</p>
                 <button>Explore Consolec & Accessories</button>
               </div>
