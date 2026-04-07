@@ -1,5 +1,50 @@
-*{
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("./fonts/HelveticaNeue-Roman.otf");
+}
+* {
   box-sizing: border-box;
   margin: 0;
-  padding:0;
+  padding: 0;
+  background: #373a3c;
+}
+:root {
+  --font-family: "HelveticaNeue", sans-serif;
+}
+.container {
+  max-width: 1130px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  align-items: center;
+}
+li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.5);
+}
+.xbox {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 209px;
+  height: 38px;
+  background: #fff;
+  padding-left: 15px;
 }
